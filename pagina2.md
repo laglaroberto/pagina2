@@ -7,22 +7,23 @@
   <body>
     <form action="procesar-incidencia.php" method="post">
       <fieldset>
-        <legend>Datos de la incidencia:</legend>
+        <legend>INFORMAR NOVEDADES DE LA PLATAFORMA UTPL:</legend>
         <label for="nombre_usuario">Usuario: </label>
         <br>
         <input type="text" name="usuario" id="nombre_usuario">
         <br><br>
-        <label for="nombre_departamento">Departamento: </label>
+        <label for="nombre_departamento">Área: </label>
         <br>
         <select name="departamento" id="nombre_departamento">
+          <option value="informatica">Tecnologías de la Información</option>
           <option value="informatica">Informática</option>
           <option value="marketing">Marketing</option>
-          <option value="ventas">Ventas</option>
+          <option value="ventas">Psicología</option>
         </select>
         <br><br>
         <label for="descripcion_incidencia">Descripción: </label>
         <br>
-        <textarea name="incidencia" rows="3" cols="40" id="descripcion_incidencia">Describa la incidencia...</textarea>
+        <textarea name="incidencia" rows="3" cols="40" id="descripcion_incidencia">Detalle el problema suscitado...</textarea>
         <br><br>
         <label for="clave_usuario">Contraseña: </label>
         <br>
